@@ -1,0 +1,73 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+/* topnav */
+#topnav {
+  background-color: #EBF9F8;
+}
+
+#topnav .homepage {
+  float: right;
+  font-weight: bold;
+  background-color: #ebf9f8;
+  border: 5px solid #33CCCC;
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#topnav h1 {
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+h1 {
+  background-color: #ebf9f8;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h1 span {
+  color: #33CCCC;
+}
+
+.home {
+  border: 5px solid #33CCCC;
+  margin-right: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.topnav-right a {
+  text-decoration: none;
+}
+
+.square_circle {
+  border-radius: 50%;
+}
+
+#exhibit .card {
+  border: 4px solid #33CCCC;
+  font-weight: bold;
+  width: 400px;
+  margin-left: 60px;
+}
+
+#exhibit #card-link {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  background-color: #EBF9F8;
+  border: 4px solid #33CCCC;
+  margin-left: 20px;
+}
