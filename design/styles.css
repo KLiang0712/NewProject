@@ -60,35 +60,52 @@ h1 {
   margin-left: 60px;
 }
 
+#about .profile {
+  margin-left: 160px;
+}
+
+#about .contact-icons {
+  margin-left: 100px;
+}
+
 #project4 .card {
   flex-direction: row;
   border: 4px solid #33CCCC;
   font-weight: bold;
   width: 400px;
-  margin-left: 60px;
+  margin-left: 160px;
 }
 
 #content .card {
   border: 4px solid #33CCCC;
   font-weight: bold;
   width: 400px;
-  margin-left: 60px;
+  margin-left: 160px;
 }
 
-#content #card-link1,
+#content #card-link {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  background-color: #EBF9F8;
+  border: 4px solid #33CCCC;
+  margin-left: 30px;
+}
+
+#card-link1,
 #card-link2 {
   font-weight: bold;
   font-size: 16px;
   color: black;
   background-color: #EBF9F8;
   border: 4px solid #33CCCC;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 #content .repository,
 .website {
   font-weight: bold;
-  margin-left: 60px;
+  margin-left: 160px;
   font-size: 16px;
   width: 400px;
   border: 4px solid #33CCCC;
@@ -98,11 +115,11 @@ h1 {
 .bootcamp {
   border: 4px solid #33CCCC;
   width: 400px;
-  margin-left: 60px;
+  margin-left: 160px;
 }
 
 #skills1-4 {
-  margin-left: 100px;
+  margin-left: 160px;
   width: 100px;
   height: 100px;
 }
