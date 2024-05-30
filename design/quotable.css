@@ -22,7 +22,7 @@ h1 {
 
 h1 span {
   font-weight: bold;
-  color: #33CCCC;
+  color: #16BBCE;
 }
 
 /* menu */
@@ -109,7 +109,7 @@ h1 span {
   width: 10px;
   height: 10px;
   border: 2px solid var(--clr);
-  background: turquoise;
+  background: #16bbce;
   transform: translateX(-50%);
   transition: 0.5s;
 }
@@ -135,7 +135,7 @@ h1 span {
   width: 100%;
   background-color: #ebf9f8;
   padding: 50px 40px;
-  box-shadow: 0 20px 65px turquoise;
+  box-shadow: 0 20px 65px #16bbce;
   position: relative;
   border-radius: 8px;
   text-align: center;
@@ -146,7 +146,7 @@ h1 span {
   position: absolute;
   width: 80%;
   height: 120%;
-  background-color: #79f6fc;
+  background-color: #33cccc;
   z-index: -1;
   top: -10%;
   left: 10%;

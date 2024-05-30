@@ -9,8 +9,24 @@ $(document).ready(function() {
       name: "Confucius"
     },
     {
+      quote: "Make it simple. Make it memorable. Make it inviting to look at. Make it fun to read.",
+      name: "Leo Burnett"
+    },
+    {
+      quote: "I want to live my life so that my nights are not full of regrets.",
+      name: "D.H. Lawrence"
+    },
+    {
+      quote: "The only way to do great work is to love what you do.",
+      name: "Steve Jobs"
+    },
+    {
       quote: "Never, never, never give up.",
       name: "Winston Churchill"
+    },
+    {
+      quote: "Variety is the spice of life.",
+      name: "The American Proverb"
     },
     {
       quote: "Expect problems and eat them for breakfast.",
@@ -59,6 +75,50 @@ $(document).ready(function() {
     {
       quote: "Do not take life too seriously. You will never get out of it alive.",
       name: "Elbert Hubbard"
+    },
+    {
+      quote: "I have loved the stars to be fearful of the night.", 
+      name: "Galileo Galilei"
+    },
+    {
+      quote: "I will ride. I will fly. Chase the wind and touch the sky.",
+      name: "Juile Fowlis"
+    },
+    {
+      quote: "Considering how dangerous evrything is nothing is really frightening.", 
+      name: "Gertrude Stein (Everybody's Autobiography)"
+    },
+    {
+      quote: "Never run when you are afraid.", 
+      name: "Steven Moffat (The 11th Doctor (Dr. Who))"
+    },
+    {
+      quote: "There is not always an explanation for everything.", 
+      name: "Ernest Hemingway"
+    },
+    {
+      quote: "How different everything is when you are with the right people.", 
+      name: "Kate Greenway"
+    },
+    {
+      quote: "Danger hides in beauty and beauty in danger.", 
+      name: "Belva Plain (Cresent City)"
+    },
+    {
+      quote: "I did not save yoru life to see you waste it.", 
+      name: "Emma Mieko Candon (Kouru = Star Wars = Visions = Ronin)"
+    },
+    {
+      quote: "For there are many great deeds in the small struggles of life.", 
+      name: "Victor Hugo"
+    },
+    {
+      quote: "Only those who will risk going too far can possibly find out how far one can go.", 
+      name: "T. S. Elliot"
+    },
+    {
+      quote: "Running is one form of escape. Running for your life is another.",
+      name: "Lemony Snicket"
     },
     {
       quote: "Don't watch the clock; do what it does. Keep going.",
