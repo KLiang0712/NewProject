@@ -18,7 +18,7 @@ body {
 .name,
 .theme {
   text-align: center;
-  margin-right: 160px;
+  margin-right: 60px;
 }
 
 h1 {
@@ -32,10 +32,10 @@ h1 span {
 
 #aces-icon {
   text-decoration: none;
-  margin-left: 160px;
+  margin-left: 30px;
   width: 60px;
   height: 60px;
-  border: 4px solid #16BBCE;
+  border: 3px solid #16BBCE;
 }
 
 /* ACES */
@@ -48,24 +48,15 @@ section #about,
 }
 
 #about p,
-h1 {
+h1, .profile {
   margin-left: 60px;
 }
 
-#about .github,
-.email,
-.linkedin {
-  text-decoration: none;
-  padding-right: 20px;
+#about #contact-icons img {
   margin-left: 60px;
-}
-
-#about .profile {
-  margin-left: 160px;
-}
-
-#about .contact-icons {
-  margin-left: 100px;
+  width: 75px; 
+  height: 75px; 
+  border: 3px solid #16BBCE;
 }
 
 #project4 .card {
@@ -73,17 +64,11 @@ h1 {
   border: 4px solid #33CCCC;
   font-weight: bold;
   width: 400px;
-  margin-left: 160px;
+  height: 280px;
+  margin-left: 60px;
 }
 
-#content .card {
-  border: 4px solid #33CCCC;
-  font-weight: bold;
-  width: 400px;
-  margin-left: 160px;
-}
-
-#content #card-link {
+#project4 #card-link {
   font-weight: bold;
   font-size: 16px;
   color: black;
@@ -105,23 +90,23 @@ h1 {
 #content .repository,
 .website {
   font-weight: bold;
-  margin-left: 160px;
+  margin-left: 60px;
   font-size: 16px;
   width: 400px;
-  border: 4px solid #33CCCC;
+  border: 4px solid #16BBCE;
 }
 
 #edux .school,
 .bootcamp {
   border: 4px solid #16bbce;
   width: 400px;
-  margin-left: 160px;
+  margin-left: 60px;
 }
 
-#skills1-4 {
-  margin-left: 160px;
-  width: 80px;
-  height: 80px;
+.skills4 {
+  margin-left: 60px;
+  width: 75px;
+  height: 75px;
 }
 
 h2 {

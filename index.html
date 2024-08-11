@@ -44,6 +44,7 @@
       <span class="font-primary"><b>K</b></span><b>ory</b>
       <span class="font-primary"><b>L</b></span><b>iang</b>
     </h1>
+    <br>
     <center>
       <img class="square_circle" src="images/kl0712.jpg" alt="profile" height="300" width="300">
     </center>
@@ -62,72 +63,40 @@
       <span class="font-primary"><b>A</b></span><b>bout</b>
     </h2>
 
+    <h1 class="profile" style="background: none">
+      <span class="font-primary"><b>I</b></span><b>ntroduction</b>
+    </h1>
+    <p style="font-size:16px;">
+      I am a highly motivated and skilled Computer Science graduate<br>
+      with a passion for developing innovative software solutions.<br>
+      My current fields of study are Web Development and Data Analytics.<br>
+    </p>
+
     <h1 class="profile">
       <span class="font-primary"><b>C</b></span><b>onnection</b>
       <span class="font-primary"><b>F</b></span><b>orum</b>
     </h1>
-    <div class="contact-icons">
+    
+    <div id="contact-icons">
       <a href="mailto:kory.liang@outlook.com" class='email' ?subject=Feedback&body="Message" target="_blank">
-        <img src="images/edux/email.svg" alt="email" style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
+        <img src="images/contact/email.svg" alt="email">
       </a>
 
       <a href="https://www.linkedin.com/in/kory-liang" class='linkedin' target="_blank">
-        <img src="images/edux/linkedin.svg" alt="LinkedIn"
-          style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
+        <img src="images/contact/linkedin.svg" alt="LinkedIn">
       </a>
 
-      <a href="https://github.com/KLiang0712" class='github' target="_blank">
-        <img src="images/edux/github.svg" alt="GitHub" style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
+      <br><br>
+
+      <a href="https://github.com/KLiang0712" class='git0712' target="_blank">
+        <img src="images/contact/github.svg" alt="GitHub">
+      </a>
+
+      <a href="https://dev.to/kliang0712" class='dev2' target="_blank">
+        <img src="images/contact/dev2.svg" alt="dev2">
       </a>
     </div>
     <br>
-
-    <!-- https://getbootstrap.com/docs/5.0/components/card/#using-grid-markup -->
-    <div class="row" id="project4" style="width: 80%;">
-      <!-- Exhibit -->
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h1 class="profile">
-              <span class="font-primary"><b>E</b></span><b>xhibit</b>
-              <img src="images/edux/wireframe.svg" class="card-img-top" alt="project"
-                style="width:100px; height:100px;">
-            </h1>
-            <p class="card-text">Learn more about this project:</p>
-            <a href="exhibit.html" class="btn btn-primary" style="font-weight: bold; 
-              color: black; 
-              background-color: #ebf9f8; 
-              border: 4px solid #33cccc; 
-              margin-left: 60px;">Exhibit</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- GitHub Repository -->
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h1 class="profile">
-              <span class="font-primary"><b>P</b></span><b>roject</b>
-              <img src="images/edux/portfolio.svg" class="card-img-top" alt="project"
-                style="width:100px; height:100px;">
-            </h1>
-            <p class="card-text">Available Download on GitHub :)</p>
-            <a href="https://github.com/KLiang0712/MYFAVQUOTE0712" target="_blank" class="btn btn-primary"
-              id="repository"
-              style="background-color: white; color: black; border: 3px solid #33cccc; font-weight: bold; margin-left: 60px;">GitHub</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-    <br>
-    <!-- Source: https://getbootstrap.com/docs/5.0/components/card/#titles-text-and-links -->
 
     <section id="content">
       <h2>
@@ -136,42 +105,52 @@
       </h2>
 
       <!-- Exhibit -->
-      <div class="row" style="width: 80%;">
+      <!-- https://getbootstrap.com/docs/5.0/components/card/#using-grid-markup -->
+      <div class="row" id="project4" style="width: 80%;">
+        <!-- Exhibit & GitHub -->
         <div class="col-sm-6">
-          <div class="repository">
-            <div class="cardtheme" style="margin-left: 150px;">
-              <img src="images/quotable.svg" class="card-img-top" alt="quotable" style="width:100px; height:100px;">
-            </div>
-
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title" style="margin-left: 30px;"><b>Quoteable API App</b></h5>
-              <h6 class="card-subtitle mb-2 text-muted" style="margin-left: 30px;">
-                <b>Credits go to Coding Artist Web.</b>
-              </h6>
-              <a href="exhibit/quotable.html" class="btn btn-primary" id="card-link">Quoteable</a>
-              <br><br>
+              <h1 class="profile">
+                <span class="font-primary"><b>E</b></span><b>xhibit</b>
+                <img src="images/edux/wireframe.svg" class="card-img-top" alt="project"
+                  style="width:100px; height:100px;">
+              </h1>
+              <p class="card-text">Learn more about this project!<br>Available Download on GitHub :)</p>
+              <a href="exhibit.html" class="btn btn-primary" style="font-weight: bold; 
+                color: black; 
+                background-color: white; 
+                border: 3px solid #33cccc; 
+                margin-left: 60px;">Exhibit</a>
+
+              <a href="https://github.com/KLiang0712/MYFAVQUOTE0712" target="_blank" class="btn btn-primary"
+                id="repository"
+                style="font-weight: bold; background-color: white; color: black; border: 3px solid #33cccc;">GitHub</a>
             </div>
           </div>
         </div>
 
+        <!-- Projects -->
         <div class="col-sm-6">
-          <div class="website">
-            <div class="cardtheme" style="margin-left: 150px;">
-              <img src="images/everxp.svg" class="card-img-top" alt="project" style="width:150px; height:100px;">
-            </div>
-
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title" style="margin-left: 30px;"><b>Explore My Project!</b></h5>
-              <h6 class="card-subtitle mb-2 text-muted" style="margin-left: 30px;"><b>
-                  Quotes are from EverXP and other sources.
-                </b></h6>
-              <a href="exhibit/ee-short.html" class="btn btn-primary" id="card-link1">Short Quotes</a>
-              <a href="exhibit/ee-long.html" class="btn btn-primary" id="card-link2">Long Quotes</a>
-              <br><br>
+              <h1 class="profile">
+                <span class="font-primary"><b>P</b></span><b>roject</b>
+                <img src="images/edux/portfolio.svg" class="card-img-top" alt="project"
+                  style="width:100px; height:100px;">
+              </h1>
+                <a href="exhibit/quotable.html" class="btn btn-primary" id="card-link">Quoteable</a>
+                <br><br>
+                <a href="exhibit/ee-short.html" class="btn btn-primary" id="card-link1">Short Quotes</a>
+                <a href="exhibit/ee-long.html" class="btn btn-primary" id="card-link2">Long Quotes</a>
             </div>
           </div>
         </div>
       </div>
+
+      <br>
+      <!-- Source: https://getbootstrap.com/docs/5.0/components/card/#titles-text-and-links -->
+
     </section>
     <br><br>
 
@@ -190,8 +169,7 @@
             <div class="card-body">
               <b>
                 <h5 class="card-title" style="font-weight: bold; margin-left: 20px;">Rasmussen University</h5>
-                <p class="card-text" style="margin-left: 20px;">Bachelor's of Science in Computer Science<br>August 2018
-                  - September 2020</p>
+                <p class="card-text" style="margin-left: 20px;">School of Technology<br>2018 - 2024</p>
               </b>
             </div>
             <br>
@@ -223,15 +201,17 @@
       </h2>
 
       <h6>
-        <img src="images/skills/html5.svg" class="card-img-top" id="skills1-4" alt="html5">
+        <img class="skills4" src="images/skills/html5.svg" alt="html5">
+        <img class="skills4" src="images/skills/css3.svg" alt="css3">
+        <img class="skills4" src="images/skills/bscards.svg" alt="bootstrap">
+        <img class="skills4" src="images/skills/linkjs.svg" alt="cdnjs">
+        <img class="skills4" src="images/skills/jscript.svg" alt="jscript">
+      </h6>
 
-        <img src="images/skills/css3.svg" class="card-img-top" id="skills1-4" alt="css3">
-
-        <img src="images/skills/javascript.svg" class="card-img-top" id="skills1-4" alt="js">
-
-        <img src="images/skills/bootstrap.svg" class="card-img-top" id="skills1-4" alt="bootstrap">
-
-        <img src="images/skills/link-cdnjs.svg" class="card-img-top" id="skills1-4" alt="cdnjs">
+      <h6>
+        <img class="skills4" src="images/skills/icongit.svg" alt="git">
+        <img class="skills4" src="images/skills/svgicon.svg" alt="svg">
+        <img class="skills4" src="images/skills/unicode.svg" alt="unicode">
       </h6>
     </section>
 
