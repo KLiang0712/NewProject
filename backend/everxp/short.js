@@ -166,6 +166,10 @@ $(document).ready(function() {
     {
       quote: "Designers tend to whisper, ad agencies tend to shout.",
       name: "David Stuart"
+    }, 
+    {
+      quote: "Suffering is the true test of life.", 
+      name: "David Goggins"
     }
   ];
 

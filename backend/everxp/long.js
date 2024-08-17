@@ -5,6 +5,10 @@ $(document).ready(function() {
       name: "Kyle Meyer"
     },
     {
+      quote: "Every morning in our lives, we have a choice to make. You have the choice to stay in bed and say 'Forget it, I'm not going to work hard today.' That's your choice that you make every single day of your life. Make the right decision.",
+      name: "David Goggins"
+    },
+    {
       quote: "Design is the method of putting form and content together. Design, just as art, has multiple definitions; there is no single definition. Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.",
       name: "Paul Rand"
     },
